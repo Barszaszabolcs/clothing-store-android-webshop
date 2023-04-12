@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Ruhawebshop</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="username">Felhasználónév</string>
+    <string name="email">E-mail cím</string>
+    <string name="passwordAgain">Jelszó újra</string>
+    <string name="cancel">Mégse</string>
+    <string name="phoneNumber">Telefonszám</string>
+    <string name="address">Postai cím</string>
+    <string name="guest_login">Bejelentkezés vendégként</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Here is some news</string>
+    <string name="to_cart">Kosárba</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="view">View</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="delete">Törlés</string>
+    <string name="male">Férfi</string>
+    <string name="female">Nő</string>
+    <string name="gender">Nem:</string>
+    <string name="welcome">Ruházati webshop</string>
+
+    <string-array name="shopping_item_names">
+        <item>Sport nadrág</item>
+        <item>Futó cipő</item>
+        <item>Baseball sapka</item>
+        <item>Rövidnadrág</item>
+        <item>Farmernadrág</item>
+        <item>Melegítő</item>
+        <item>Ujjattlan póló</item>
+        <item>Ing</item>
+        <item>Öltöny</item>
+        <item>Makkos cipő</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Hidegben futáshoz teljesen jó sport nadrág!</item>
+        <item>Nagyon kényelmes és praktikus futó cipő!</item>
+        <item>Lakers-es baseball sapka. Lakers fan-oknak kötelező!</item>
+        <item>Nyári elegánsabb megjelenést kívánó összejövetelekre alkalmas rövidnadrág!</item>
+        <item>Kényelmes fekete farmernadrág!</item>
+        <item>Elképesztő kényelmes és divatos melegítő szett!</item>
+        <item>Nagyon szép színes magyar ujjatlan mez!</item>
+        <item>Szép fekete, hosszú ujjú ing!</item>
+        <item>Elegáns kék öltöny!</item>
+        <item>Ez egy makkos cipő. Inkább a kinézet, mint a kényelem!</item>
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>2.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4.5</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1.5</item>
+    </array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/sport_pants</item>
+        <item>@drawable/runner_shoes</item>
+        <item>@drawable/baseball_cap</item>
+        <item>@drawable/shorts</item>
+        <item>@drawable/farmer</item>
+        <item>@drawable/heater</item>
+        <item>@drawable/tricot</item>
+        <item>@drawable/shirt</item>
+        <item>@drawable/suit</item>
+        <item>@drawable/acorn_shoes</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>13000 Ft</item>
+        <item>25000 Ft</item>
+        <item>10000 Ft</item>
+        <item>7000 Ft</item>
+        <item>8000 Ft</item>
+        <item>19000 Ft</item>
+        <item>3000 Ft</item>
+        <item>6000 Ft</item>
+        <item>30000 Ft</item>
+        <item>40000 Ft</item>
+    </array>
+</resources>

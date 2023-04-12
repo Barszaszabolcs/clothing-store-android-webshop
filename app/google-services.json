@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "146149838497",
+    "project_id": "androidclothingstore",
+    "storage_bucket": "androidclothingstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146149838497:android:66f6209f970f170c306ae0",
+        "android_client_info": {
+          "package_name": "hu.mobilalk.clothingstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146149838497-vnk1bm2p7jue31rutlj3gn1vvavkg08q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.mobilalk.clothingstore",
+            "certificate_hash": "43d43319dd6f671025e0688bfe252cd8b25c1dff"
+          }
+        },
+        {
+          "client_id": "146149838497-i4lgbq82dq3l5l08k335jvqbinelorai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7YR7OQ8CiyWzuNo2rs7w16HF6Gc4ItLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146149838497-i4lgbq82dq3l5l08k335jvqbinelorai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

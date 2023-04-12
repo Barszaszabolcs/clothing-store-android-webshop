@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/registrationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:text="@string/registration"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/registrationTextView"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/userNameEditText"/>
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/phoneNumber"
+        android:inputType="phone"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/emailEditText"/>
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress|textMultiLine"
+        android:maxLines="3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/phoneEditText"/>
+
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:layout_below="@id/addressEditText">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"/>
+
+        <RadioButton
+            android:id="@+id/buyerRadioButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/female"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/genderGroup"/>
+
+    <EditText
+        android:id="@+id/passwordAgainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_marginLeft="@dimen/default_margin_sides"
+        android:layout_marginRight="@dimen/default_margin_sides"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/passwordAgain"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/passwordEditText"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/passwordAgainEditText"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_reg"
+            android:drawableTint="@color/orange"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/orange"
+            android:text="@string/registration"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="register"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_cancel"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/black"
+            android:text="@string/cancel"
+            android:textSize="18sp"
+            android:onClick="cancel"/>
+    </LinearLayout>
+
+</RelativeLayout>
